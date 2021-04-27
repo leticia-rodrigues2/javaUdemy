@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class ex3 {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner (System.in);
+		double vetorA[] =new double [5]; 
+		 
+		 
+		
+		 double vetorB[] = vetorA; 
+		 for (int i=0; i<vetorA.length; i++) {
+			 System.out.println("Digite o valor");
+			 vetorA[i]=entrada.nextDouble();
+			
+		 }
+	
+		
+		 
+		 
+			// mostra todos os valores
+			for(double vec: vetorB) {
+		System.out.println(vec * vec);
+				
+			}
+	}
+
+}

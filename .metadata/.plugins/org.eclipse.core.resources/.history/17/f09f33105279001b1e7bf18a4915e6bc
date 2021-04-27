@@ -1,0 +1,21 @@
+package inicio;
+
+import java.util.Date;
+
+import calandario.Calendario;
+
+public class principal {
+
+	public static void main(String[] args) {
+	
+	
+	Calendario calendario = new Calendario();
+	
+	System.out.println("Data atual" + calendario.getDia() + "/" + calendario.getMes());
+	
+		
+		
+
+	}
+
+}

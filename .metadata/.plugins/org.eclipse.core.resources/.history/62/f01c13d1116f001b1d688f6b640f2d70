@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Ex11 {
+
+	public static void main(String[] args) {
+	Scanner entrada = new Scanner (System.in);
+	//CRIANDO O VETOR
+		double[] vetorA = new double[10];
+
+		for(int i =0 ; i <vetorA.length; i++) {
+			System.out.print("digite um valor :");
+		vetorA[i]= entrada.nextDouble();
+		}
+		int par
+		
+		for (int i =0 ; i<vetorA.length; i++)
+		{
+			if(vetorA[i] % 2 == 0) {
+				
+			}
+		}		
+	}
+
+}

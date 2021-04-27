@@ -1,0 +1,24 @@
+INDEX VERSION 1.131+/home/leticia/Sistema da Informação/JAVAudemy/.metadata/.plugins/org.eclipse.jdt.core
+668859095.index
+1182065220.index
+469173552.index
+1130341869.index
+873186330.index
+1527392039.index
+4023479730.index
+2239107540.index
+3266361426.index
+667187681.index
+2919621488.index
+3890808766.index
+4179060321.index
+3606114703.index
+2616123089.index
+855669105.index
+2068374290.index
+4145734110.index
+878983082.index
+3842865971.index
+4189329443.index
+2934981667.index
+1323237378.index

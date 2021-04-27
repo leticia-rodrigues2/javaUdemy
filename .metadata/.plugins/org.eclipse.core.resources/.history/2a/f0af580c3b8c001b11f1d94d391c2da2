@@ -1,0 +1,58 @@
+import java.util.Scanner;
+
+public class CifradorCesar {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner (System.in);
+		char tabela;
+		
+		System.out.println("Digite a mensagem: ");
+        String mensagem = entrada.nextLine();
+        
+        System.out.println("Digite a CHAVE: ");
+        int chave = entrada.nextInt();
+        
+        char x ,y;
+        
+        	 while (chave >= 26) {
+                 chave = chave - 26;
+             }
+        for (int i = 0; i < mensagem.length(); i++) 
+        {
+        if (mensagem.charAt(i) >= 97 && mensagem.charAt(i) <= 122)
+        	{
+        	if ((int)(mensagem.charAt(i) + chave) > 122)
+        		{
+        		 x = (char) (mensagem.charAt(i) + 122);
+        		 y = (char) (x-122);
+        		tabela = (char)(96+y);
+        		System.out.println(tabela + " ");
+        		}
+        	else 
+        		{
+        		tabela = (char) (mensagem.charAt(i)+ chave);
+        		System.out.print(tabela + " ");
+        		
+        		}
+        	System.out.println("**********FIM******");
+        	}        
+        if (mensagem.charAt(i)>= 65 && mensagem.charAt(i)<=90)
+        {
+        	if (mensagem.charAt(i)+ chave > 90)		
+        	{
+        		  x = (char) (mensagem.charAt(i) + chave);
+                  y = (char) (x - 90);
+                  tabela = (char) (64 + y);
+                  System.out.print(tabela + " ");
+              } else {
+                  tabela = (char) (mensagem.charAt(i) + chave);
+                  System.out.print(tabela + " ");
+              }
+        	System.out.println("**********FIM******");
+        }
+        }
+        entrada.close();
+        }
+		
+	    }
+	

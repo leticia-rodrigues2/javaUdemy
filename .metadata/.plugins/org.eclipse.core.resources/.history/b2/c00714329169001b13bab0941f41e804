@@ -1,0 +1,18 @@
+package atividade1;
+
+import java.util.Scanner;
+
+public class datas {
+
+	public static void main(String[] args) {
+ Scanner entrada = new Scanner(System.in);
+ int data;
+ System.out.println("digite um data : );"
+ data= entrada.nextInt();
+ 
+ 
+ 
+ entrada.close();
+	}
+
+}

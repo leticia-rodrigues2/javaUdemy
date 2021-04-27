@@ -1,0 +1,18 @@
+package udemyExercList;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Ex1 {
+
+	public static void main(String[] args) {
+	Scanner entrada = new Scanner(System.in);
+		List <Integer>list = new ArrayList< > ();
+	  
+		int n;
+		System.out.println("How many employees will be registered? "+n);
+	
+	}
+
+}

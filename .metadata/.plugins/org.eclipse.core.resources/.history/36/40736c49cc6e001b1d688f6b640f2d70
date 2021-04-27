@@ -1,0 +1,24 @@
+
+public class ex1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+double vetorA[] =new double [5]; 
+ 
+ vetorA [0]= 11;
+ vetorA[1]= 22;
+ vetorA [2]= 33;
+ vetorA[3]= 44;
+ vetorA[4]= 55;
+		
+ double vetorB[] = vetorA; 
+ 
+ 
+	// mostra todos os valores
+	for(double vec: vetorB) {
+System.out.println(vec);
+		
+	}
+
+	}
+}

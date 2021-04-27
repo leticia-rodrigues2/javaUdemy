@@ -1,0 +1,9 @@
+
+public class MyIO {
+
+	public static char readLine() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

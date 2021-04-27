@@ -1,0 +1,48 @@
+package atividade1;
+
+import java.util.Scanner;
+
+public class datas {
+
+	
+	Scanner entrada = new Scanner(System.in);
+	int dia, mes, ano;
+	System.out.print("Digite o dia: ");
+	dia = entrada.nextInt();
+	System.out.print("Digite o mês: ");
+	mes = entrada.nextInt();
+	System.out.print("Digite o ano: ");
+	ano = entrada.nextInt();
+	/* VERIFICAÇÃO DE DATA VÁLIDA */
+	if(mes > 12)
+	{
+	System.out.println("Data inválida - mês
+	inexistente");
+	}
+	else if(dia > 31)
+	{
+	System.out.println("Data inválida - dia
+	inexistente");
+	}
+	/* VERIFICAÇÃO DE ANO BISSEXTO */
+	if(ano % 400 == 0)
+	{
+	System.out.println("O ano é bissexto");
+	 }
+	else if(ano % 4 == 0 && ano % 100 != 0)
+	{
+	 System.out.println("O ano é bissexto");
+	 }
+	else
+	{
+	 System.out.println("O ano não é bissexto");
+	 }
+	/* IMPRIMIR DATA EM FORMATO EUROPEU */
+	System.out.printf("Data em formato europeu: %d/%d/%d%n",
+	dia, mes, ano);
+	/* IMPRIMIR DATA EM FORMATO AMERICANO */
+	System.out.printf("Data em formato americano: %d/%d/%d",
+	mes, dia, ano);
+	entrada.close();
+	}
+	}

@@ -1,0 +1,10 @@
+package Atividade2;
+
+public class Carro {
+	
+	public void abastecer(double quantidadeCombustivel) {
+		
+		
+	}
+
+}

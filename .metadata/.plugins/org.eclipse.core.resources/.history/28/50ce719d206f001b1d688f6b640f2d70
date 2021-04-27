@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class ex17 {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner (System.in);
+		int idades[] =new int [10]; 
+	 
+		 int idadaMaior =0;
+
+				
+
+		 for (int i=0; i<idades.length; i++) {
+			 System.out.println("Digite a idade ");
+			 idades[i]=entrada.nextInt();
+			 
+			
+		 } 
+		 
+	int menor = idades[0];
+	int indexMenor=0;
+	
+		 
+		 
+		 
+		 
+	}
+
+}

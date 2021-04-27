@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class ex20 {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner (System.in);
+		double valoresEmReais[] =new double [20]; 
+		
+		// comando para digitar os valores
+		for (int i = 0; i < valoresEmReais.length; i++) {
+			System.out.print(" Digite o valor para A: ");
+			valoresEmReais[i] = entrada.nextDouble();
+		
+
+		}
+		for (int i = 0; i < valoresEmReais.length; i++) {
+		
+		valoresEmReais[i]= (valoresEmReais[i] + 4.37);
+		}
+		// COMANDO PARA OS VALORES e acresentar o valor do dolar
+		
+	
+	}
+
+}

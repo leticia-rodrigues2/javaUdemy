@@ -1,0 +1,50 @@
+package dadosDobanco;
+
+public class informacoes {
+public String nome;
+public double conta;
+public double saldoConta=0;
+private double saque ;
+public double deposito;
+public String depositoIncial;
+public double valorinicial;
+public String getNome() {
+	return nome;
+}
+public void setNome(String nome) {
+	this.nome = nome;
+}
+
+
+public double getConta() {
+	return conta;
+}
+
+public  double getSaldoConta() {
+	saldoConta=(valorinicial+deposito)-saque;
+
+	return saldoConta;
+	
+}
+
+public void setSaldoConta(double saldoConta) {
+	this.saldoConta =+ saldoConta;
+}
+public double getSaque() {
+	return saque;
+}
+public void setSaque(double saque) {
+	this.saque = saque + 5;
+}
+public String getDepositoIncial() {
+	return depositoIncial;
+}
+public void setDepositoIncial(String depositoIncial) {
+	this.depositoIncial = depositoIncial;
+}
+public double getValorinicial() {
+	return valorinicial;
+}
+
+
+}

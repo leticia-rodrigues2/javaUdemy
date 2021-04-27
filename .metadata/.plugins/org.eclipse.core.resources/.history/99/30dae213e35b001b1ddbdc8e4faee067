@@ -1,0 +1,48 @@
+package apliction;
+
+import java.util.Scanner;
+
+public class progrm { 
+
+	public static void main(String[] args) {
+		Scanner entrada= new Scanner (System.in);
+		
+		double xA, xB ,xC ,yA ,yB ,yC;
+		
+		System.out.println("Digite os numero do Tiangulo X");
+		xA=entrada.nextDouble();
+		xB=entrada.nextDouble();
+		xC=entrada.nextDouble();
+		
+		System.out.println("Digite os numero do Tiangulo Y");
+		yA=entrada.nextDouble();
+		yB=entrada.nextDouble();
+		yC=entrada.nextDouble();
+		
+		double p= (xA+ xB +xC)/2.0;
+		double areaX= Math.sqrt(p * (p-xA)* (p-xB)* (p-xC));
+		
+		double py= (yA+ yB +yC)/2.0;
+		double areaY= Math.sqrt(py * (py-yA)* (py-yB)* (py-yC));
+		
+		System.out.printf("A area do trianguloX é : %.4f%n" + areaX);
+		System.out.printf("A area do trianguloX é : %.4f%n" + areaY);
+		
+		if (areaX > areaY){
+			System.out.println("A maior area é a do Triangulo X");
+			
+		}
+		else {
+			System.out.println("A maior area é a do Triangulo Y");
+			
+
+		}
+		
+		entrada.close();
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,35 @@
+
+public class ec4 {
+
+	public static void main(String[] args) {
+		
+		double vetorA[] =new double [15]; 
+		 
+		 vetorA [0]= 11;
+		 vetorA[1]= 22;
+		 vetorA [2]= 33;
+		 vetorA[3]= 44;
+		 vetorA[4]= 55;
+		 vetorA [5]= 11;
+		 vetorA[6]= 22;
+		 vetorA [7]= 33;
+		 vetorA[8]= 44;
+		 vetorA[9]= 55;
+		 vetorA [10]= 11;
+		 vetorA[11]= 22;
+		 vetorA [12]= 33;
+		 vetorA[13]= 44;
+		 vetorA[14]= 55;
+	
+				
+		 double vetorB[] = vetorA; 
+		 
+		 
+			// mostra todos os valores
+			for(double vec: vetorB) {
+		System.out.println(Math.sqrt(vec));
+				
+			}
+	}
+
+}

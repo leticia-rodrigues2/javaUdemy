@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class ex19 {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner (System.in);
+		double notas1[] =new double [10]; 
+		double notas2[] =new double [10]; 
+		double result[] =new double [10]; 
+		
+		for (int i=0; i<notas1.length; i++) {
+			 System.out.print("Digite a a nota do aluno no primeiro semestre ");
+			 notas2[i]=entrada.nextDouble();
+			 
+			
+		 } 
+		
+		for (int i=0; i<notas1.length; i++) {
+			 System.out.print("Digite a a nota do aluno no segundo semestre semestre ");
+			 notas2[i]=entrada.nextDouble();
+			 
+			
+		 } 
+		
+	}
+
+}
