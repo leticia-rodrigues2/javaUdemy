@@ -23,9 +23,9 @@ public void setInterrestRate(Double interestRate) {
    public void updateBalance() {
 	   balance += balance* interestRate;
    }
+   
    @Override
    public void withdraw(double amount) {
-		balance -= amount;
-	}
-
+	   balance -= amount;
+   }
 }
