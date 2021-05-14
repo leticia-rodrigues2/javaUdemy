@@ -34,7 +34,7 @@ public class Company extends TaxPayer {
 			return getSalaAnu() * 0.14;
 		}
 		else {
-			return getSalaAnu() * 0.16;
+			return getSalaAnu()* 0.16;
 		}
 	}
 }
