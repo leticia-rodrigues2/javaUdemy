@@ -19,7 +19,7 @@ public class Exem1 {
 		System.out.println("Posição invalida!");
 	}
 	catch(InputMismatchException e)
-	{ // se digitar uma letra ou cracter errado ou seja que não seja um numero
+	{ // se digitar uma letra ou caractere errado ou seja que não seja um número
 		System.out.println("Erro de entrada");
 	}System.out.println("Fim do programa");
 	
